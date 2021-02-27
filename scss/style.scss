@@ -167,6 +167,10 @@ br {
         margin: {
             top: 24px;
             right: 16px;
+             @include media(tb) {
+            width: 30px;
+            height: 30px;
+        　}
         }
     }
     &__title {
